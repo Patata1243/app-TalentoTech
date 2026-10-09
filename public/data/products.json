@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "nombre": "Remera Básica Negra",
+    "imagen": "/img/remera-negra.jpg",
+    "precio": 15000,
+    "descripcion": "Remera de algodón de corte clásico y cómodo.",
+    "categoria": "ropa"
+  },
+  {
+    "id": 2,
+    "nombre": "Remera Básica Blanca",
+    "imagen": "/img/remera-blanca.jpg",
+    "precio": 15000,
+    "descripcion": "Remera de algodón suave para uso diario.",
+    "categoria": "ropa"
+  },
+  {
+    "id": 3,
+    "nombre": "Campera Urbana",
+    "imagen": "/img/campera-urbana.jpg",
+    "precio": 48000,
+    "descripcion": "Campera liviana ideal para días frescos.",
+    "categoria": "ropa"
+  },
+  {
+    "id": 4,
+    "nombre": "Pantalón Cargo",
+    "imagen": "/img/pantalon-cargo.jpg",
+    "precio": 42000,
+    "descripcion": "Pantalón cargo resistente con múltiples bolsillos.",
+    "categoria": "ropa"
+  },
+  {
+    "id": 5,
+    "nombre": "Jean Clásico Azul",
+    "imagen": "/img/jean-azul.jpg",
+    "precio": 45000,
+    "descripcion": "Jean de corte clásico para uso cotidiano.",
+    "categoria": "ropa"
+  },
+  {
+    "id": 6,
+    "nombre": "Buzo con Capucha",
+    "imagen": "/img/buzo-capucha.jpg",
+    "precio": 38000,
+    "descripcion": "Buzo cómodo con capucha y bolsillo frontal.",
+    "categoria": "ropa"
+  },
+  {
+    "id": 7,
+    "nombre": "Zapatillas Urbanas",
+    "imagen": "/img/zapatillas-urbanas.jpg",
+    "precio": 65000,
+    "descripcion": "Zapatillas versátiles para uso diario.",
+    "categoria": "calzado"
+  },
+  {
+    "id": 8,
+    "nombre": "Zapatillas Running",
+    "imagen": "/img/zapatillas-running.jpg",
+    "precio": 82000,
+    "descripcion": "Zapatillas deportivas ligeras para correr.",
+    "categoria": "calzado"
+  },
+  {
+    "id": 9,
+    "nombre": "Botas de Cuero",
+    "imagen": "/img/botas-cuero.jpg",
+    "precio": 95000,
+    "descripcion": "Botas resistentes de estilo clásico.",
+    "categoria": "calzado"
+  },
+  {
+    "id": 10,
+    "nombre": "Sandalias Urbanas",
+    "imagen": "/img/sandalias-urbanas.jpg",
+    "precio": 32000,
+    "descripcion": "Sandalias cómodas para días cálidos.",
+    "categoria": "calzado"
+  },
+  {
+    "id": 11,
+    "nombre": "Auriculares Bluetooth",
+    "imagen": "/img/auriculares-bluetooth.jpg",
+    "precio": 55000,
+    "descripcion": "Auriculares inalámbricos con sonido nítido.",
+    "categoria": "electronica"
+  },
+  {
+    "id": 12,
+    "nombre": "Teclado Mecánico",
+    "imagen": "/img/teclado-mecanico.jpg",
+    "precio": 72000,
+    "descripcion": "Teclado mecánico compacto para gaming y trabajo.",
+    "categoria": "electronica"
+  },
+  {
+    "id": 13,
+    "nombre": "Mouse Inalámbrico",
+    "imagen": "/img/mouse-inalambrico.jpg",
+    "precio": 28000,
+    "descripcion": "Mouse inalámbrico ergonómico de alta precisión.",
+    "categoria": "electronica"
+  },
+  {
+    "id": 14,
+    "nombre": "Parlante Portátil",
+    "imagen": "/img/parlante-portatil.jpg",
+    "precio": 60000,
+    "descripcion": "Parlante portátil con conexión Bluetooth.",
+    "categoria": "electronica"
+  },
+  {
+    "id": 15,
+    "nombre": "Smartwatch Deportivo",
+    "imagen": "/img/smartwatch-deportivo.jpg",
+    "precio": 78000,
+    "descripcion": "Reloj inteligente con funciones deportivas.",
+    "categoria": "electronica"
+  },
+  {
+    "id": 16,
+    "nombre": "Monitor 24 Pulgadas",
+    "imagen": "/img/monitor-24.jpg",
+    "precio": 185000,
+    "descripcion": "Monitor Full HD de 24 pulgadas.",
+    "categoria": "electronica"
+  },
+  {
+    "id": 17,
+    "nombre": "Mochila Urbana",
+    "imagen": "/img/mochila-urbana.jpg",
+    "precio": 36000,
+    "descripcion": "Mochila resistente para estudio, trabajo o viajes.",
+    "categoria": "accesorios"
+  },
+  {
+    "id": 18,
+    "nombre": "Gorra Negra",
+    "imagen": "/img/gorra-negra.jpg",
+    "precio": 18000,
+    "descripcion": "Gorra ajustable de diseño minimalista.",
+    "categoria": "accesorios"
+  },
+  {
+    "id": 19,
+    "nombre": "Cinturón de Cuero",
+    "imagen": "/img/cinturon-cuero.jpg",
+    "precio": 25000,
+    "descripcion": "Cinturón de cuero con hebilla metálica.",
+    "categoria": "accesorios"
+  },
+  {
+    "id": 20,
+    "nombre": "Billetera Compacta",
+    "imagen": "/img/billetera-compacta.jpg",
+    "precio": 22000,
+    "descripcion": "Billetera compacta con varios compartimentos.",
+    "categoria": "accesorios"
+  },
+  {
+    "id": 21,
+    "nombre": "Botella Térmica",
+    "imagen": "/img/botella-termica.jpg",
+    "precio": 27000,
+    "descripcion": "Botella reutilizable de acero inoxidable.",
+    "categoria": "hogar"
+  },
+  {
+    "id": 22,
+    "nombre": "Taza Cerámica",
+    "imagen": "/img/taza-ceramica.jpg",
+    "precio": 12000,
+    "descripcion": "Taza de cerámica ideal para bebidas calientes.",
+    "categoria": "hogar"
+  },
+  {
+    "id": 23,
+    "nombre": "Lámpara de Escritorio",
+    "imagen": "/img/lampara-escritorio.jpg",
+    "precio": 34000,
+    "descripcion": "Lámpara de escritorio con diseño moderno.",
+    "categoria": "hogar"
+  },
+  {
+    "id": 24,
+    "nombre": "Almohadón Decorativo",
+    "imagen": "/img/almohadon-decorativo.jpg",
+    "precio": 16000,
+    "descripcion": "Almohadón suave para decorar cualquier ambiente.",
+    "categoria": "hogar"
+  },
+  {
+    "id": 25,
+    "nombre": "Manta Suave",
+    "imagen": "/img/manta-suave.jpg",
+    "precio": 29000,
+    "descripcion": "Manta cálida y suave para el hogar.",
+    "categoria": "hogar"
+  },
+  {
+    "id": 26,
+    "nombre": "Set de Cubiertos",
+    "imagen": "/img/set-cubiertos.jpg",
+    "precio": 31000,
+    "descripcion": "Set de cubiertos de acero inoxidable.",
+    "categoria": "hogar"
+  },
+  {
+    "id": 27,
+    "nombre": "Pelota de Fútbol",
+    "imagen": "/img/pelota-futbol.jpg",
+    "precio": 24000,
+    "descripcion": "Pelota resistente para entrenamiento y recreación.",
+    "categoria": "deportes"
+  },
+  {
+    "id": 28,
+    "nombre": "Mat de Yoga",
+    "imagen": "/img/mat-yoga.jpg",
+    "precio": 26000,
+    "descripcion": "Mat antideslizante para yoga y ejercicios.",
+    "categoria": "deportes"
+  },
+  {
+    "id": 29,
+    "nombre": "Mancuernas 5 kg",
+    "imagen": "/img/mancuernas-5kg.jpg",
+    "precio": 30000,
+    "descripcion": "Par de mancuernas de 5 kg para entrenamiento.",
+    "categoria": "deportes"
+  },
+  {
+    "id": 30,
+    "nombre": "Cuerda para Saltar",
+    "imagen": "/img/cuerda-saltar.jpg",
+    "precio": 14000,
+    "descripcion": "Cuerda ajustable para ejercicios cardiovasculares.",
+    "categoria": "deportes"
+  }
+]

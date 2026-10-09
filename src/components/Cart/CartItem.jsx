@@ -1,5 +1,13 @@
-export const CartItem = () => (
-    <div>
+import { useCart } from "../../context/CartContext";
+import { Item } from "../Item/Item";
 
-    </div>
-);
+export const CartItem = ({ item }) => {
+  const { removeItem } = useCart();
+  return (
+    <Item {...item}>
+      <button className="remove" onClick={removeItem}>
+        Eliminar
+      </button>
+    </Item>
+  );
+};
