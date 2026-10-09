@@ -15,7 +15,6 @@ export const CartView = () => {
         <>
           <CartList />
           <CartSummary />
-          //boton de eliminar todos los items del carrito
         </>
       ) : (
         <>

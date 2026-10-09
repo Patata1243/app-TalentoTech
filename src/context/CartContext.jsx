@@ -13,5 +13,3 @@ export const useCart = () => {
   }
   return context;
 };
-
-//------------------------------------------ Proveedor

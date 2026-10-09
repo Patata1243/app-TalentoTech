@@ -1,8 +1,13 @@
-import { useCart } from "../../context/CartContext";
 import "./Item.css";
 
-export const Item = ({ imagen, nombre, precio, descripcion, categoria }) => {
-  const { addItem } = useCart();
+export const Item = ({
+  children,
+  imagen,
+  nombre,
+  precio,
+  descripcion,
+  categoria,
+}) => {
   return (
     <article className="product-card">
       <div className="product-image-container">
@@ -16,9 +21,7 @@ export const Item = ({ imagen, nombre, precio, descripcion, categoria }) => {
       <div className="product-price-container">
         <h3 className="product-price">${precio}</h3>
       </div>
-      <button className="add-to-cart-button" onClick={addItem}>
-        Añadir al carrito
-      </button>
+      {children}
     </article>
   );
 };

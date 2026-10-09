@@ -2,17 +2,19 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { CartContext } from "./CartContext";
 
+//------------------------------------------ Proveedor
+
 export const CartProvider = ({ children }) => {
   const navigate = useNavigate();
   const [cart, setCart] = useState([]);
 
-  const isInCart = () => {
-    const inCart = cart.some((element) => element.id === element.id);
+  const isInCart = (id) => {
+    const inCart = cart.some((element) => element.id === id);
     return inCart;
   };
 
   const addItem = (item) => {
-    if (isInCart()) {
+    if (isInCart(item.id)) {
       alert("El producto ya existe en el carrito");
       return;
     }
@@ -34,7 +36,7 @@ export const CartProvider = ({ children }) => {
   };
 
   const getCartTotal = () => {
-    return cart.reduce((acc, element) => acc + element.price, 0);
+    return cart.reduce((acc, element) => acc + element.precio, 0);
   };
 
   const checkout = () => {
