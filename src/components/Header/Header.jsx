@@ -9,12 +9,7 @@ export function Header() {
       <header className="header">
         <div className="logo-container">
           <Link to={"/"}>
-            <img
-              width={50}
-              height={50}
-              src="/img/footware/logo.jpg"
-              alt="Logo Maxwell"
-            />
+            <img src="/img/footware/logo.jpg" alt="Logo Maxwell" />
           </Link>
         </div>
 

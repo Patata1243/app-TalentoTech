@@ -9,12 +9,12 @@ export const Nav = () => {
   return (
     <nav className="nav">
       <Link to="/">Inicio</Link>
-      <Link to="/productos">Productos</Link>
-      <Link to="/ofertas">Ofertas</Link>
-      <Link to="/contacto">Contacto</Link>
-      <Link to="/carrito">
-        Carrito [
-        {totalItems > 0 && <span className="inCart">{totalItems}</span>}]
+      <Link to="/products">Productos</Link>
+      <Link to="/sales">Ofertas</Link>
+      <Link to="/contact">Contacto</Link>
+      <Link to="/cart">
+        Carrito
+        {totalItems > 0 && <span className="inCart"> [ {totalItems} ]</span>}
       </Link>
     </nav>
   );

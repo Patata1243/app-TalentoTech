@@ -6,11 +6,15 @@
 
   padding: 20px 60px;
 
-  background-color: grey;
+  background-color: #f5e1ce;
   color: white;
 }
 
-.cart {
-  padding: 8px 14px;
-  cursor: pointer;
+.logo-container {
+  height: 75px;
+  width: 75px;
+  background-color: white;
+  border-color: black;
+  border-radius: 50%;
+  overflow: hidden;
 }

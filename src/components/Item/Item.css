@@ -1,0 +1,39 @@
+.product-card {
+  background-color: #7a5c3cde;
+  color: #000000;
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  overflow: hidden;
+  margin: 5px;
+  padding: 25px;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.2);
+
+  .product-image-container {
+    .product-image {
+      border: #000000;
+      border-radius: 1rem;
+    }
+  }
+
+  .product-info {
+    .product-title {
+    }
+    .product-category {
+    }
+    .product-description {
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+  }
+
+  .product-price-container {
+    .product-price {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+  }
+}

@@ -1,4 +1,7 @@
 import "./Footer.css";
+import { Link } from "react-router-dom";
+import { Contact } from "../Contact/Contact.page";
+import { Home } from "../Home/Home.page";
 
 //mejorar los className
 
@@ -13,9 +16,13 @@ export function Footer() {
 
         <section className="footer-links">
           <h3>Enlaces</h3>
-          <a href="/">Inicio</a>
+          <Link to="/" element={<Home />}>
+            Inicio
+          </Link>
           <a href="/about">Sobre Nosotros</a>
-          <a href="/contact">Contactanos</a>
+          <Link to="/contact" element={<Contact />}>
+            Contactanos
+          </Link>
         </section>
 
         <section className="footer-social-media">
