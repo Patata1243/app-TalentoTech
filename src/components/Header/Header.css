@@ -4,17 +4,15 @@
   justify-content: space-between;
   gap: 30px;
 
-  padding: 20px 60px;
+  padding: 5px 60px;
 
   background-color: #f5e1ce;
   color: white;
 }
 
-.logo-container {
+.logo {
   height: 75px;
   width: 75px;
-  background-color: white;
-  border-color: black;
   border-radius: 50%;
   overflow: hidden;
 }

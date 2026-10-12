@@ -5,7 +5,7 @@ export const CartItem = ({ item }) => {
   const { removeItem } = useCart();
   return (
     <Item {...item}>
-      <button className="remove" onClick={removeItem}>
+      <button className="remove" onClick={() => removeItem(item.id)}>
         Eliminar
       </button>
     </Item>

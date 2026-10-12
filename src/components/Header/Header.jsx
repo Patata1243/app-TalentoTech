@@ -2,16 +2,20 @@ import "./Header.css";
 import { Nav } from "../Nav/Nav";
 import { SearchBar } from "../SearchBar/SearchBar";
 import { Link } from "react-router-dom";
+import { Home } from "../Home/Home.page";
 
 export function Header() {
   return (
     <>
       <header className="header">
-        <div className="logo-container">
-          <Link to={"/"}>
-            <img src="/img/footware/logo.jpg" alt="Logo Maxwell" />
-          </Link>
-        </div>
+        <Link className="logo" to={"/"} element={<Home />}>
+          <img
+            width={75}
+            height={75}
+            src="/img/footware/logo.jpg"
+            alt="Logo Maxwell"
+          />
+        </Link>
 
         <h1>Tienda</h1>
 

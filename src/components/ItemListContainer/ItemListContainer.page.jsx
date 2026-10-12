@@ -1,3 +1,4 @@
+import "./ItemListContainer.css";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { ItemList } from "../ItemList/ItemList";
@@ -27,7 +28,7 @@ export const ItemListContainer = () => {
 
   return (
     <section>
-      <h1>Productos</h1>
+      <h1 className="product-title">Productos</h1>
       <ItemList products={filteredProducts} />
     </section>
   );

@@ -2,6 +2,7 @@ import "./Footer.css";
 import { Link } from "react-router-dom";
 import { Contact } from "../Contact/Contact.page";
 import { Home } from "../Home/Home.page";
+import { About } from "../About/About.page";
 
 //mejorar los className
 
@@ -19,7 +20,9 @@ export function Footer() {
           <Link to="/" element={<Home />}>
             Inicio
           </Link>
-          <a href="/about">Sobre Nosotros</a>
+          <Link to="/about" element={<About />}>
+            Sobre Nosotros
+          </Link>
           <Link to="/contact" element={<Contact />}>
             Contactanos
           </Link>
