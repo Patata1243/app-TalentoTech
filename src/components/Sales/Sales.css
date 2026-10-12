@@ -1,8 +1,12 @@
+.sales-title {
+  text-align: center;
+}
+
 .sales-scroll-container {
-  width: 300px;
+  width: fit-content;
   height: 200px;
   overflow-y: auto;
   overflow-x: hidden;
-  border: 1px solid #72616171;
+  border: 4px solid rgba(0, 0, 0, 0.445);
   padding: 10px;
 }

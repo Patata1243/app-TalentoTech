@@ -7,4 +7,19 @@
 
   max-width: 1200px;
   margin: 0 auto;
+
+  .add-to-cart-button {
+    background-color: darkred;
+    color: blanchedalmond;
+
+    padding: 12px;
+    border-radius: 10px;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .add-to-cart-button:hover {
+    color: rgba(255, 255, 255, 0.747);
+  }
 }

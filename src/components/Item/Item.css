@@ -9,15 +9,13 @@
   transition:
     transform 0.25s ease,
     box-shadow 0.25s ease;
-}
-
-.product-card:hover {
-  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.2);
 
   .product-image-container {
+    text-align: center;
+
     .product-image {
-      border: #000000;
-      border-radius: 1rem;
+      width: 200px;
+      height: 200px;
     }
   }
 
@@ -29,6 +27,10 @@
     .product-description {
       font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     }
+  }
+
+  .product-card:hover {
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.2);
   }
 
   .product-price-container {

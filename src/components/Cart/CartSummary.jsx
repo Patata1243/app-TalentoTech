@@ -1,3 +1,4 @@
+import "./CartView.css";
 import { useCart } from "../../context/CartContext";
 
 export const CartSummary = () => {
@@ -6,8 +7,12 @@ export const CartSummary = () => {
   return (
     <>
       <p>Total a Pagar: ${total}</p>
-      <button onClick={checkout}>Ir a Pagar</button>
-      <button onClick={clearCart}>Limpiar Carrito</button>
+      <button className="final-pay-button" onClick={checkout}>
+        Ir a Pagar
+      </button>
+      <button className="clean-cart-button" onClick={clearCart}>
+        Limpiar Carrito
+      </button>
     </>
   );
 };

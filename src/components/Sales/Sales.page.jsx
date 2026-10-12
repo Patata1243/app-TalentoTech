@@ -1,20 +1,15 @@
 import "./Sales.css";
 
 //hacer un contenedor scrolleable reutilizable para Sales
+/* dividido por categorias */
 
 export const Sales = () => {
   return (
     <section>
-      <div>
+      <div className="sales-title">
         <h1>Ofertas de hoy</h1>
       </div>
-      <div className="sales-scroll-container">
-        <p>a</p>
-        <p>b</p>
-        <p>c</p>
-        <p>d</p>
-        <p>e</p>
-      </div>
+      <div className="sales-scroll-container"></div>
     </section>
   );
 };

@@ -1,3 +1,44 @@
 .cart-container {
   text-align: center;
 }
+.remove-from-cart-button {
+  background-color: darkred;
+  color: blanchedalmond;
+
+  padding: 12px;
+  border-radius: 10px;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.remove-from-cart-button:hover {
+  color: rgba(255, 255, 255, 0.747);
+}
+
+.final-pay-button {
+  background-color: darkred;
+  color: blanchedalmond;
+
+  padding: 12px;
+  border-radius: 10px;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.final-pay-button:hover {
+  color: rgba(255, 255, 255, 0.747);
+}
+.clean-cart-button {
+  background-color: darkred;
+  color: blanchedalmond;
+
+  padding: 12px;
+  border-radius: 10px;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.clean-cart-button:hover {
+  color: rgba(255, 255, 255, 0.747);
+}

@@ -1,0 +1,21 @@
+.detail-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+  gap: 24px;
+  padding: 30px;
+
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .add-to-cart-button {
+    background-color: darkred;
+    color: blanchedalmond;
+
+    padding: 12px;
+    border-radius: 10px;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+}

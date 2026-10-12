@@ -2,7 +2,7 @@
   {
     "id": 1,
     "nombre": "Remera Básica Negra",
-    "imagen": "/img/remera-negra.jpg",
+    "imagen": "https://kentapi.phobos.net.ar/01-remera-basica-negra.png",
     "precio": 15000,
     "descripcion": "Remera de algodón de corte clásico y cómodo.",
     "categoria": "ropa"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "nombre": "Remera Básica Blanca",
-    "imagen": "/img/remera-blanca.jpg",
+    "imagen": "https://kentapi.phobos.net.ar/02-remera-basica-blanca.png",
     "precio": 15000,
     "descripcion": "Remera de algodón suave para uso diario.",
     "categoria": "ropa"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "nombre": "Campera Urbana",
-    "imagen": "/img/campera-urbana.jpg",
+    "imagen": "https://kentapi.phobos.net.ar/03-campera-urbana.png",
     "precio": 48000,
     "descripcion": "Campera liviana ideal para días frescos.",
     "categoria": "ropa"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "nombre": "Pantalón Cargo",
-    "imagen": "/img/pantalon-cargo.jpg",
+    "imagen": "https://kentapi.phobos.net.ar/04-pantalon-cargo.png",
     "precio": 42000,
     "descripcion": "Pantalón cargo resistente con múltiples bolsillos.",
     "categoria": "ropa"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "nombre": "Jean Clásico Azul",
-    "imagen": "/img/jean-azul.jpg",
+    "imagen": "https://kentapi.phobos.net.ar/05-jean-clasico-azul.png",
     "precio": 45000,
     "descripcion": "Jean de corte clásico para uso cotidiano.",
     "categoria": "ropa"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "nombre": "Buzo con Capucha",
-    "imagen": "/img/buzo-capucha.jpg",
+    "imagen": "https://kentapi.phobos.net.ar/06-buzo-con-capucha.png",
     "precio": 38000,
     "descripcion": "Buzo cómodo con capucha y bolsillo frontal.",
     "categoria": "ropa"
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "nombre": "Zapatillas Urbanas",
-    "imagen": "/img/zapatillas-urbanas.jpg",
+    "imagen": "https://kentapi.phobos.net.ar/07-zapatillas-urbanas.png",
     "precio": 65000,
     "descripcion": "Zapatillas versátiles para uso diario.",
     "categoria": "calzado"
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "nombre": "Zapatillas Running",
-    "imagen": "/img/zapatillas-running.jpg",
+    "imagen": "https://kentapi.phobos.net.ar/08-zapatillas-running.png",
     "precio": 82000,
     "descripcion": "Zapatillas deportivas ligeras para correr.",
     "categoria": "calzado"
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "nombre": "Botas de Cuero",
-    "imagen": "/img/botas-cuero.jpg",
+    "imagen": "https://kentapi.phobos.net.ar/09-botas-de-cuero.png",
     "precio": 95000,
     "descripcion": "Botas resistentes de estilo clásico.",
     "categoria": "calzado"
@@ -74,169 +74,41 @@
   {
     "id": 10,
     "nombre": "Sandalias Urbanas",
-    "imagen": "/img/sandalias-urbanas.jpg",
+    "imagen": "https://kentapi.phobos.net.ar/10-sandalias-urbanas.png",
     "precio": 32000,
     "descripcion": "Sandalias cómodas para días cálidos.",
     "categoria": "calzado"
   },
   {
     "id": 11,
-    "nombre": "Auriculares Bluetooth",
-    "imagen": "/img/auriculares-bluetooth.jpg",
-    "precio": 55000,
-    "descripcion": "Auriculares inalámbricos con sonido nítido.",
-    "categoria": "electronica"
-  },
-  {
-    "id": 12,
-    "nombre": "Teclado Mecánico",
-    "imagen": "/img/teclado-mecanico.jpg",
-    "precio": 72000,
-    "descripcion": "Teclado mecánico compacto para gaming y trabajo.",
-    "categoria": "electronica"
-  },
-  {
-    "id": 13,
-    "nombre": "Mouse Inalámbrico",
-    "imagen": "/img/mouse-inalambrico.jpg",
-    "precio": 28000,
-    "descripcion": "Mouse inalámbrico ergonómico de alta precisión.",
-    "categoria": "electronica"
-  },
-  {
-    "id": 14,
-    "nombre": "Parlante Portátil",
-    "imagen": "/img/parlante-portatil.jpg",
-    "precio": 60000,
-    "descripcion": "Parlante portátil con conexión Bluetooth.",
-    "categoria": "electronica"
-  },
-  {
-    "id": 15,
-    "nombre": "Smartwatch Deportivo",
-    "imagen": "/img/smartwatch-deportivo.jpg",
-    "precio": 78000,
-    "descripcion": "Reloj inteligente con funciones deportivas.",
-    "categoria": "electronica"
-  },
-  {
-    "id": 16,
-    "nombre": "Monitor 24 Pulgadas",
-    "imagen": "/img/monitor-24.jpg",
-    "precio": 185000,
-    "descripcion": "Monitor Full HD de 24 pulgadas.",
-    "categoria": "electronica"
-  },
-  {
-    "id": 17,
     "nombre": "Mochila Urbana",
-    "imagen": "/img/mochila-urbana.jpg",
+    "imagen": "https://kentapi.phobos.net.ar/11-mochila-urbana.png",
     "precio": 36000,
     "descripcion": "Mochila resistente para estudio, trabajo o viajes.",
     "categoria": "accesorios"
   },
   {
-    "id": 18,
+    "id": 12,
     "nombre": "Gorra Negra",
-    "imagen": "/img/gorra-negra.jpg",
+    "imagen": "https://kentapi.phobos.net.ar/12-gorra-negra.png",
     "precio": 18000,
     "descripcion": "Gorra ajustable de diseño minimalista.",
     "categoria": "accesorios"
   },
   {
-    "id": 19,
+    "id": 13,
     "nombre": "Cinturón de Cuero",
-    "imagen": "/img/cinturon-cuero.jpg",
+    "imagen": "https://kentapi.phobos.net.ar/13-cinturon-de-cuero.png",
     "precio": 25000,
     "descripcion": "Cinturón de cuero con hebilla metálica.",
     "categoria": "accesorios"
   },
   {
-    "id": 20,
+    "id": 14,
     "nombre": "Billetera Compacta",
-    "imagen": "/img/billetera-compacta.jpg",
+    "imagen": "https://kentapi.phobos.net.ar/14-billetera-compacta.png",
     "precio": 22000,
     "descripcion": "Billetera compacta con varios compartimentos.",
     "categoria": "accesorios"
-  },
-  {
-    "id": 21,
-    "nombre": "Botella Térmica",
-    "imagen": "/img/botella-termica.jpg",
-    "precio": 27000,
-    "descripcion": "Botella reutilizable de acero inoxidable.",
-    "categoria": "hogar"
-  },
-  {
-    "id": 22,
-    "nombre": "Taza Cerámica",
-    "imagen": "/img/taza-ceramica.jpg",
-    "precio": 12000,
-    "descripcion": "Taza de cerámica ideal para bebidas calientes.",
-    "categoria": "hogar"
-  },
-  {
-    "id": 23,
-    "nombre": "Lámpara de Escritorio",
-    "imagen": "/img/lampara-escritorio.jpg",
-    "precio": 34000,
-    "descripcion": "Lámpara de escritorio con diseño moderno.",
-    "categoria": "hogar"
-  },
-  {
-    "id": 24,
-    "nombre": "Almohadón Decorativo",
-    "imagen": "/img/almohadon-decorativo.jpg",
-    "precio": 16000,
-    "descripcion": "Almohadón suave para decorar cualquier ambiente.",
-    "categoria": "hogar"
-  },
-  {
-    "id": 25,
-    "nombre": "Manta Suave",
-    "imagen": "/img/manta-suave.jpg",
-    "precio": 29000,
-    "descripcion": "Manta cálida y suave para el hogar.",
-    "categoria": "hogar"
-  },
-  {
-    "id": 26,
-    "nombre": "Set de Cubiertos",
-    "imagen": "/img/set-cubiertos.jpg",
-    "precio": 31000,
-    "descripcion": "Set de cubiertos de acero inoxidable.",
-    "categoria": "hogar"
-  },
-  {
-    "id": 27,
-    "nombre": "Pelota de Fútbol",
-    "imagen": "/img/pelota-futbol.jpg",
-    "precio": 24000,
-    "descripcion": "Pelota resistente para entrenamiento y recreación.",
-    "categoria": "deportes"
-  },
-  {
-    "id": 28,
-    "nombre": "Mat de Yoga",
-    "imagen": "/img/mat-yoga.jpg",
-    "precio": 26000,
-    "descripcion": "Mat antideslizante para yoga y ejercicios.",
-    "categoria": "deportes"
-  },
-  {
-    "id": 29,
-    "nombre": "Mancuernas 5 kg",
-    "imagen": "/img/mancuernas-5kg.jpg",
-    "precio": 30000,
-    "descripcion": "Par de mancuernas de 5 kg para entrenamiento.",
-    "categoria": "deportes"
-  },
-  {
-    "id": 30,
-    "nombre": "Cuerda para Saltar",
-    "imagen": "/img/cuerda-saltar.jpg",
-    "precio": 14000,
-    "descripcion": "Cuerda ajustable para ejercicios cardiovasculares.",
-    "categoria": "deportes"
   }
 ]

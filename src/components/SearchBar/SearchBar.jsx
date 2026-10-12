@@ -6,6 +6,7 @@ export function SearchBar() {
   return (
     <form className="search">
       <input
+        className="search-input"
         type="text"
         placeholder="Buscar productos..."
         value={busqueda}

@@ -8,6 +8,7 @@ import { CartView } from "./components/Cart/CartView.page";
 import { Home } from "./components/Home/Home.page";
 import { Sales } from "./components/Sales/Sales.page";
 import { Contact } from "./components/Contact/Contact.page";
+import { About } from "./components/About/About.page";
 
 export function App() {
   return (
@@ -20,7 +21,7 @@ export function App() {
           <Route path="/products" element={<ItemListContainer />} />
           <Route path="/sales" element={<Sales />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<Contact />} />
+          <Route path="/about" element={<About />} />
           <Route path="/product/:id" element={<ItemDetailContainer />} />
           <Route path="/product/:category" element={<ItemListContainer />} />
         </Routes>

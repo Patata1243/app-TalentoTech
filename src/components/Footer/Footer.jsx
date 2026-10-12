@@ -11,8 +11,8 @@ export function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <section className="footer-brand">
-          <h2>Título</h2>
-          <p>Descripción</p>
+          <h2>Titulo</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
         </section>
 
         <section className="footer-links">

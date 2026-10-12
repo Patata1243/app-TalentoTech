@@ -11,7 +11,13 @@ export const Item = ({
   return (
     <article className="product-card">
       <div className="product-image-container">
-        <img className="product-image" src={imagen} alt={nombre} />
+        <img
+          width={110}
+          heigth={20}
+          className="product-image"
+          src={imagen}
+          alt={nombre}
+        />
       </div>
       <div className="product-info">
         <h2 className="product-title">{nombre}</h2>
