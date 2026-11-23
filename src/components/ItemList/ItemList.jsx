@@ -17,7 +17,7 @@ export function ItemList({ products }) {
           descripcion={producto.descripcion}
         >
           <button
-            className="add-to-cart-button"
+            className="bg-red-800 rounded-2xl px-4 py-2"
             onClick={() => addItem(producto)}
           >
             Añadir al Carrito

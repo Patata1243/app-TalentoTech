@@ -1,4 +1,3 @@
-import "./Item.css";
 
 export const Item = ({
   children,
@@ -6,26 +5,23 @@ export const Item = ({
   nombre,
   precio,
   descripcion,
-  categoria,
 }) => {
   return (
-    <article className="product-card">
-      <div className="product-image-container">
+    <article className="bg-[#7a5c3cde] w-xs text-center text-black rounded-xl p-6 flex flex-col gap-4 items-center transition-colors duration-250 hover:bg-[#52391e]">
+      <div className="">
         <img
           width={110}
           heigth={20}
-          className="product-image"
           src={imagen}
           alt={nombre}
         />
       </div>
-      <div className="product-info">
-        <h2 className="product-title">{nombre}</h2>
-        <h3 className="product-category">{categoria}</h3>
-        <p className="product-description">{descripcion}</p>
+      <div className="">
+        <h2 className="font-bold text-2xl">{nombre}</h2>
+        <p className="font-thin italic">{descripcion}</p>
       </div>
-      <div className="product-price-container">
-        <h3 className="product-price">${precio}</h3>
+      <div className="">
+        <h3 className="font-bold">${precio}</h3>
       </div>
       {children}
     </article>
