@@ -9,6 +9,7 @@ import { Home } from "./components/Home/Home.page";
 import { Sales } from "./components/Sales/Sales.page";
 import { Contact } from "./components/Contact/Contact.page";
 import { About } from "./components/About/About.page";
+import SignUp from "./components/SignUp/SignUp";
 
 export function App() {
   return (
@@ -24,6 +25,7 @@ export function App() {
           <Route path="/about" element={<About />} />
           <Route path="/product/:id" element={<ItemDetailContainer />} />
           <Route path="/product/:category" element={<ItemListContainer />} />
+          <Route path="/register" element={<SignUp />} />
         </Routes>
       </main>
       <Footer />
