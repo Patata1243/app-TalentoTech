@@ -11,14 +11,14 @@ export const CartView = () => {
     <section className="cart-container">
       <h1 className="cart-title">Tu carrito de compras</h1>
 
-      {cart.length ? (
+      {cart.length !== 0 ? (
         <>
           <CartList />
           <CartSummary />
         </>
       ) : (
         <>
-          <p className="empty-cart">El carrito está vacío</p>
+          <p className="empty-cart">El carrito se encuentra vacío</p>
           <Link to="/">Volver</Link>
         </>
       )}

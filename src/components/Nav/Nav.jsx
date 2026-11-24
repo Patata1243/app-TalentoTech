@@ -16,6 +16,7 @@ export const Nav = () => {
         Carrito
         {totalItems > 0 && <span className="inCart"> [ {totalItems} ]</span>}
       </Link>
+      <Link to="/register">Registrarse</Link>
     </nav>
   );
 };

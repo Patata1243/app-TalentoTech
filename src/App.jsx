@@ -9,7 +9,7 @@ import { Home } from "./components/Home/Home.page";
 import { Sales } from "./components/Sales/Sales.page";
 import { Contact } from "./components/Contact/Contact.page";
 import { About } from "./components/About/About.page";
-import SignUp from "./components/SignUp/SignUp";
+import { SignUp } from "./components/SignUp/SignUp";
 
 export function App() {
   return (
