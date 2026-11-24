@@ -10,6 +10,8 @@ import { Sales } from "./components/Sales/Sales.page";
 import { Contact } from "./components/Contact/Contact.page";
 import { About } from "./components/About/About.page";
 import { SignUp } from "./components/SignUp/SignUp";
+import { ProductFormContainer } from "./components/adminComponents/ProductForm/ProductFormContainer";
+import { ProductSuccess } from "./components/adminComponents/ProductSuccess";
 
 export function App() {
   return (
@@ -26,6 +28,12 @@ export function App() {
           <Route path="/product/:id" element={<ItemDetailContainer />} />
           <Route path="/product/:category" element={<ItemListContainer />} />
           <Route path="/register" element={<SignUp />} />
+
+          <Route path="/admin" element={<ProductFormContainer />} />
+          <Route
+            path="/admin/products/success/:id"
+            element={<ProductSuccess />}
+          />
         </Routes>
       </main>
       <Footer />
